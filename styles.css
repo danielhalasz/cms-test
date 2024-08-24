@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

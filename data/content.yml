@@ -1,0 +1,5 @@
+title: 'Default Title'
+body: 'This is the default content of the body.'
+image: '/assets/images/uploads/default-image.jpg'
+background_color: '#ffffff'
+text_color: '#000000'

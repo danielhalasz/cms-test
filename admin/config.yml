@@ -1,0 +1,24 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: 'assets/images/uploads' # Folder for uploaded images
+public_folder: '/assets/images/uploads'
+
+collections:
+  - name: 'general'
+    label: 'General Content'
+    files:
+      - label: 'Homepage Content'
+        name: 'homepage'
+        file: 'data/content.yml'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'text' }
+          - { label: 'Image', name: 'image', widget: 'image' }
+          - {
+              label: 'Background Color',
+              name: 'background_color',
+              widget: 'color',
+            }
+          - { label: 'Text Color', name: 'text_color', widget: 'color' }
