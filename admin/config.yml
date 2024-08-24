@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: 'danielhalasz/cms-test'
   branch: main
 
 media_folder: 'assets/images/uploads' # Folder for uploaded images
