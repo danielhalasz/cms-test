@@ -3,3 +3,7 @@ content:
     label: Home
     path: index.html
     type: file
+  - name: content
+    label: Content
+    path: data/content.yml
+    type: file
