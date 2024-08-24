@@ -1,0 +1,5 @@
+content:
+  - name: home
+    label: Home
+    path: index.html
+    type: file
